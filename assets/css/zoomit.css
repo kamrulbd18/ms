@@ -137,6 +137,9 @@ a:hover{
     position: absolute;
     cursor: pointer;
 }
+.row.product-grid .card-img-top {
+    height: 185px;
+}
 .btn-plus-minus input {
     border: 1px solid #b81f44;
     padding: 3px;
