@@ -1,3 +1,6 @@
+a:hover{
+    text-decoration: none;
+}
 .login-hr {
     text-align: center;
     height: 1px;
@@ -13,37 +16,30 @@
     width: 49px;
     left: 41%;
 }
-.category-box img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
 .category-box {
-    text-align: center;
-    position: relative;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    display: block;
-    overflow: hidden;
-    transition: all 0.2s;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
-.category-box:hover {
-    transform: scale(1.01);
-    box-shadow: 0px 0px 8px #ddd;
+.category-box a{
+    color: #333;
 }
-.category-box h3 {
-    display: inline;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
-    box-shadow: 0px 0px 5px #ccc;
-    font-size: 16px;
-    margin: 0;
+.category-box a:hover {
+    text-decoration: none !important;
+    color: #333;
+}
+.category-box i {
+    font-size: 29px;
+    padding: 10px;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+.category-box span {
     position: absolute;
-    bottom: 0;
-    z-index: 2;
-    left: 0;
-    width: 100%;
-    color: #fff;
+    top: 16px;
+    left: 67px;
+    text-align: center;
+    width: 75%;
 }
 .carousel-indicators li {
     height: 7px;
@@ -95,12 +91,96 @@
     top: 2px;
 }
 .product-grid .card-title {
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
+    font-size: 12px;
+    height: 38px;
+}
+.product-grid .pro-weight {
+    margin-bottom: 8px;
+    display: block;
 }
 .product-grid .card-subtitle {
     color: #666;
+    font-weight: 600;
+    font-size: 14px;
+}
+.add-to-cart-btn button{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.row.product-grid .card-body {
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+.subcategory {
+    text-align: center;
+}
+.subcategory img {
+    max-width: 100%;
+    height: auto;
+}
+.subcategory a{
+    color: #222;
+}
+.cart-plus-minus {
+    border: 1px solid #b81f44;
+    color: #fff;
+    background: #d92550;
     font-weight: 700;
+    font-size: 16px;
+    width: 42px;
+    line-height: 22px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+.btn-plus-minus input {
+    border: 1px solid #b81f44;
+    padding: 3px;
+    text-align: center;
+    background: #b81f44;
+    color: #fff;
+    width: 100%;
+    float: left;
+}
+.btn-plus-minus {
+    position: relative;
+}
+.cart-plus-minus.minus {
+    left: 0;
+}
+.cart-plus-minus.plus {
+    right: 0;
+}
+.row.product-grid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row.product-grid .col-md-2.col-sm-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-qty {
+    display: inline-flex;
+}
+.increase.items, .reduced.items {
+    background: #ddd;
+    border: 1px solid #ddd;
+    color: #222;
+    padding: 8px 10px 7px;
+    float: left;
+    cursor: pointer;
+}
+.input-text.qty {
+    border: 1px solid #ddd;
+    max-width: 50px;
+    padding: 4px 13px;
+    float: left;
+    text-align: center;
+    margin: 0 -1px;
 }
 .email i:before {
     font-size: 13px;
@@ -152,7 +232,7 @@
     color: #333;
 }
 .single-earner {
-    width: 14.9%;
+    width: 14.7%;
     float: left;
     position: relative;
     text-align: center;
@@ -172,14 +252,10 @@
     margin: 5px 0;
 }
 .single-earner h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 8px;
 }
-.single-earner.active {
-    transform: scale(1.18);
-    background: #3ac47d !important;
-    color: #fff;
-}
+
 @media (max-width: 767px) {
     .category-box h3 {
       padding: 7px 20px;
@@ -194,13 +270,13 @@
     .row.product-cat-grid .col-md-3.col-sm-6 {
         width: 50%;
     }
-.single-earner {
-    width: 43%;
-    margin: 5px;
-    min-height: 224px;
-    margin-bottom: 15px;
-}
-.single-earner.active {
-    transform: scale(1);
-}
+    .single-earner {
+        width: 46%;
+        margin: 5px;
+        margin-bottom: 15px;
+    }
+    .single-earner h4 {
+        font-size: 13px;
+    }
+
 }

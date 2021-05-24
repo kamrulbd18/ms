@@ -94,7 +94,34 @@ jQuery(document).ready(function( $ ) {
         $(".shopping-bag-box").show();
         $(".shopping-box-view").hide();
     });
+    $(".btn-plus-minus").hide();
+    $(".add-to-cart-btn button").each(function() {
+        $(this).on("click", function(){
+            $(".btn-plus-minus").show();
+            $(".add-to-cart-btn").hide();
+        });
+    });   
+
 });
+
+ $(".cart-plus-minus").on("click", function() {
+   var $button = $(this);
+   var $parent = $button.parent(); 
+   var oldValue = $parent.find('.input').val();
+
+   if ($button.text() == "+") {
+      var newVal = parseFloat(oldValue) + 1;
+    } else {
+       // Don't allow decrementing below zero
+      if (oldValue > 1) {
+        var newVal = parseFloat(oldValue) - 1;
+        } else {
+        newVal = 1;
+      }
+    }
+    $parent.find('.input').val(newVal);
+ });
+
 </script>
 <script>
     $('.spinner .btn:first-of-type').on('click', function() {

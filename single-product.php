@@ -99,25 +99,6 @@
 .price-tag del{
     color: red;
 }
-.custom-qty {
-    display: inline-flex;
-}
-.increase.items, .reduced.items {
-    background: #ddd;
-    border: 1px solid #ddd;
-    color: #222;
-    padding: 8px 10px 7px;
-    float: left;
-    cursor: pointer;
-}
-.input-text.qty {
-    border: 1px solid #ddd;
-    max-width: 50px;
-    padding: 4px 13px;
-    float: left;
-    text-align: center;
-    margin: 0 -1px;
-}
 .card-header > .nav .nav-link.active {
     font-weight: bold;
 }

@@ -34,9 +34,11 @@
                         <div class="app-sidebar__inner">
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Featured Categories</li>
-                                <li><a href=""><i class="metismenu-icon icofont-glue-oil"></i> Safety Product</a></li>
+                                <li><a href=""><i class="metismenu-icon icofont-offside"></i> Best Offer</a></li>
+                                <li><a href=""><i class="metismenu-icon icofont-addons"></i> Donate Food</a></li>
+                                <li><a href=""><i class="metismenu-icon icofont-dart"></i> Popular Item</a></li>
                                 <li>
-                                    <a href="#"><i class="metismenu-icon icofont-bag"></i> Essentials <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
+                                    <a href="#"><i class="metismenu-icon icofont-hand"></i> Hygiene & Cleaning <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
                                     <ul>
                                         <li><a href="">Sub category</a></li>
                                         <li><a href="">Sub category</a></li>
@@ -44,7 +46,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="metismenu-icon icofont-box"></i> Frozen Foods <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
+                                    <a href="category.php"><i class="metismenu-icon icofont-pie"></i> Food & Grocery <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
                                     <ul>
                                         <li><a href="">Sub category</a></li>
                                         <li><a href="">Sub category</a></li>
@@ -52,7 +54,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="metismenu-icon icofont-baby"></i> Baby Care <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
+                                    <a href="#"><i class="metismenu-icon icofont-bathtub"></i> Toiletries & Cleaning <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
                                     <ul>
                                         <li><a href="">Sub category</a></li>
                                         <li><a href="">Sub category</a></li>
@@ -67,36 +69,9 @@
                                         <li><a href="">Sub category</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#"><i class="metismenu-icon icofont-beverage"></i> Beverages <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
-                                    <ul>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href=""><i class="metismenu-icon icofont-milk"></i> Dairy</a></li>
-                                <li><a href=""><i class="metismenu-icon icofont-fish  icofont-rotate-180"></i> Fish</a></li>
-                                <li><a href=""><i class="metismenu-icon icofont-bell-pepper-capsicum"></i> Fresh Produce</a></li>
-                                <li><a href=""><i class="metismenu-icon icofont-carrot"></i> Grocery</a></li>
-                                <li><a href=""><i class="metismenu-icon icofont-cow"></i> Meat</a></li>
-                                <li>
-                                    <a href="#"><i class="metismenu-icon icofont-washing-machine"></i> Home & Cleaning <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
-                                    <ul>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="metismenu-icon icofont-bathtub"></i> Beauty & Health <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i></a>
-                                    <ul>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                        <li><a href="">Sub category</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href=""><i class="metismenu-icon icofont-eye"></i> All Products</a></li>
                             </ul>
+
                         </div>
                     </div>
-                </div>    
+                </div>   
