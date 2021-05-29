@@ -37,8 +37,8 @@ a:hover{
 .category-box span {
     position: absolute;
     top: 16px;
-    left: 67px;
-    text-align: center;
+    padding-left: 14px;
+    text-align: left;
     width: 75%;
 }
 .carousel-indicators li {
@@ -281,5 +281,7 @@ a:hover{
     .single-earner h4 {
         font-size: 13px;
     }
-
+    .app-header .app-header__logo {
+        display: none !important;
+    }
 }

@@ -5,7 +5,7 @@
                             <div class="row pl-3 pr-3">
                                 <div class="col-md-6 col-sm-4 col-xs-12">
                                     <div class="widget">
-                                        <img src="assets/images/logo-inverse.png" alt="">
+                                        <img src="assets/images/logo-inverse.png" width="220px">
                                         <p>Masher Sodai is an online shop in Dhaka, Bangladesh. We believe time is valuable to our fellow Dhaka residents, and that they should not have to waste hours in traffic, brave bad weather and wait in line just to buy basic necessities like eggs! This is why Chaldal delivers everything you need right at your door-step and at no additional cost.</p>
                                        </div>
                                 </div>

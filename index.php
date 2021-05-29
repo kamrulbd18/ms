@@ -28,7 +28,7 @@
                                 <h5 class="card-title text-center mb-4">Our Product Categories</h5>
                                 <div class="row">
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-hand"></i> 
@@ -37,7 +37,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-pie"></i> 
@@ -46,7 +46,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-bathtub"></i> 
@@ -55,7 +55,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-beach"></i> 
@@ -64,7 +64,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-baby"></i> 
@@ -73,7 +73,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                         <div class="category-box">
                                             <a href="category.php">
                                                 <i class="metismenu-icon icofont-pie"></i> 

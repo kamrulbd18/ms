@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="">    
 
+     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16"> 
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/zoomit.css">
     <link href="main.css" rel="stylesheet">   
