@@ -127,7 +127,7 @@
                 <div class="login-hr"></div>
                 <div class="loginMessage text-center">Enter your mobile no</div>
                 <form action="" method="post">
-                    <div class="input-group">
+                    <div class="input-group login">
                         <div class="input-group-prepend">
                             <span class="input-group-text">+88</span>
                         </div>

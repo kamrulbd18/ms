@@ -258,7 +258,9 @@ a:hover{
     font-size: 16px;
     margin-top: 8px;
 }
-
+.input-group.login {
+    width: 100% !important;
+}
 @media (max-width: 767px) {
     .category-box h3 {
       padding: 7px 20px;
