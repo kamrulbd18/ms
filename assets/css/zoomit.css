@@ -261,6 +261,12 @@ a:hover{
 .input-group.login {
     width: 100% !important;
 }
+.search-wrapper.active {
+    width: auto !important;
+}
+.visible-xs{
+    display: none;
+}
 @media (max-width: 767px) {
     .category-box h3 {
       padding: 7px 20px;
@@ -285,5 +291,21 @@ a:hover{
     }
     .app-header .app-header__logo {
         display: none !important;
+    }
+    .visible-xs{
+        display: block;
+    }
+    .hidden-xs{
+        display: none;
+    }
+    .header-btn-lg.pr-0.nn {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .search-wrapper.active .input-holder {
+        width: 270px;
+        border-radius: 50px;
+        background: rgba(0,0,0,0.05);
+        transition: all 0.5s cubic-bezier(0, 0.105, 0.035, 1.57);
     }
 }

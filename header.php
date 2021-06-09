@@ -58,14 +58,21 @@
             </div>    
             <div class="app-header__content">
                 <div class="app-header-left">
-                    <div class="search-wrapper">
-                        <div class="input-holder">
-                            <input type="text" class="search-input" placeholder="Type to search">
-                            <button class="search-icon"><span></span></button>
+                    <div class="visible-xs">
+                        <div class="search-wrapper active">
+                            <div class="input-holder">
+                                <input type="text" class="search-input" placeholder="Type to search">
+                                <button class="search-icon"><span></span></button>
+                            </div>
                         </div>
-                        <button class="close"></button>
                     </div>
                     <ul class="header-menu nav">
+                        <li class="nav-item search-wrapper active">
+                            <div class="input-holder">
+                                <input type="text" class="search-input" placeholder="Type to search">
+                                <button class="search-icon"><span></span></button>
+                            </div>
+                        </li>
                         <li class="nav-item">
                             <a href="how-to-order.php" class="nav-link">
                                 <i class="nav-link-icon fa fa-plug"> </i>
@@ -87,21 +94,13 @@
                     </ul>        
                 </div>
                 <div class="app-header-right">
-                    <div class="header-btn-lg pr-0">
+                    <div class="header-btn-lg pr-0 nn">
                         <div class="widget-content p-0">
                             <div class="widget-content-wrapper">
                                 <div class="widget-content-left">
-                                    <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-primary active text-white">
-                                            <input type="radio" name="options" id="option1" autocomplete="off" checked="">
-                                            EN
-                                        </label>
-                                        <label class="btn btn-primary text-white">
-                                            <input type="radio" name="options" id="option2" autocomplete="off">
-                                             বাং
-                                        </label>
-                                    </div>
-                                    <button type="button" class="btn btn-sm ml-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">SIGN IN</button>
+                                    <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">
+                                        <span class="hidden-xs">SIGN IN</span> <i class="fa fa-user-circle"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
