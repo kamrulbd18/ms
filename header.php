@@ -98,9 +98,7 @@
                         <div class="widget-content p-0">
                             <div class="widget-content-wrapper">
                                 <div class="widget-content-left">
-                                    <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">
-                                        <span class="hidden-xs">SIGN IN</span> <i class="fa fa-user-circle"></i>
-                                    </button>
+                                    <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">SIGN IN</button>
                                 </div>
                             </div>
                         </div>
